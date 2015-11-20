@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),bueller)
+ifeq ($(TARGET_DEVICE),molly)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := AndroidMediaShell
