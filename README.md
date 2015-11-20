@@ -1,5 +1,5 @@
 # Proprietary Vendor Google ATV 
-# (for testing/development purposes only not for commercial distribution)
+# **for testing/development purposes only not for commercial distribution**
 
 Android TV Google Apps Leanback Base Lolipop
 
