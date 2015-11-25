@@ -3,7 +3,6 @@ AtvCustomization:true:PRESIGNED::
 Backdrop:false:PRESIGNED::
 CanvasCloudServices:true:PRESIGNED::
 CanvasPackageInstaller:false:PRESIGNED::
-FrameworkPackageStubs:false:PRESIGNED::
 FuguPairingTutorial:false:PRESIGNED::
 GamepadPairingService:true:PRESIGNED::
 GoogleContactsSyncAdapter:false:PRESIGNED::
