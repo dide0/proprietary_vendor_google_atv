@@ -1,13 +1,19 @@
 PRODUCT_PACKAGES += \
     AndroidMediaShell \
     AtvCustomization \
+    AtvWidget.apk \
     Backdrop \
     CanvasCloudServices \
     CanvasPackageInstaller \
+    ConfigUpdater.apk \
     FuguPairingTutorial \
     GamepadPairingService \
+    GoogleBackupTransport.apk \
+    GoogleCalendarSyncAdapter.apk \
     GoogleContactsSyncAdapter \
     GoogleServicesFramework \
+    GoogleTTS.apk \
+    Katniss.apk \
     LandscapeWallpaper \
     Music2Pano \
     NoTouchAuthDelegate \
@@ -21,6 +27,7 @@ PRODUCT_PACKAGES += \
     TvVoiceInput \
     VideosPano \
     YouTubeLeanback \
+    talkback.apk
 
 PRODUCT_COPY_FILES += \
     vendor/google/atv/misc/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
