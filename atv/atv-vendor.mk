@@ -4,7 +4,6 @@ PRODUCT_PACKAGES += \
     Backdrop \
     CanvasCloudServices \
     CanvasPackageInstaller \
-    FrameworkPackageStubs \
     FuguPairingTutorial \
     GamepadPairingService \
     GoogleContactsSyncAdapter \
