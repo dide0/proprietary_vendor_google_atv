@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
     SetupWraith \
     TvVoiceInput \
     VideosPano \
+    WebViewGoogle.apk \
     YouTubeLeanback \
     talkback.apk
 
