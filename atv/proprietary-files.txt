@@ -11,7 +11,7 @@ GoogleContactsSyncAdapter:false:PRESIGNED::
 GoogleServicesFramework:true:PRESIGNED::
 LandscapeWallpaper:false:PRESIGNED::
 LeanbackIme:false:PRESIGNED::
-LeanbackLauncher:true:PRESIGNED::Trebuchet
+LeanbackLauncher:true:PRESIGNED::launcher2
 Music2Pano:false:PRESIGNED::
 NoTouchAuthDelegate:false:PRESIGNED::
 Overscan:true:PRESIGNED::
@@ -27,3 +27,5 @@ TV:true:PRESIGNED::
 TvVoiceInput:false:PRESIGNED::
 VideosPano:false:PRESIGNED::
 YouTubeLeanback:false:PRESIGNED:libm2ts_player.so:
+Katniss:true:PRESIGNED:libgoogle_hotword_jni.so libgoogle_recognizer_jni_l.so libvision_face_jni.so:
+GoogleBackupTransport:false:PRESIGNED::
