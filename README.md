@@ -7,5 +7,6 @@ To include Leanback Gapps in your Cyanogenmod 12.x AndroidTV build make sure non
 
 Before build time add this line to your device.mk
 
-
 $(call inherit-product-if-exists, vendor/google/atv/atv-vendor.mk)
+
+This app combination is working for the Mad Catz M.O.J.O - in combination with CM-12.1
