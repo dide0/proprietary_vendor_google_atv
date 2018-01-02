@@ -25,18 +25,7 @@ LOCAL_OVERRIDES_PACKAGES :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := CanvasCloudServices
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
-LOCAL_PREBUILT_JNI_LIBS := 
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_OVERRIDES_PACKAGES := 
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := CanvasPackageInstaller
+LOCAL_MODULE := ConfigUpdater
 LOCAL_PRIVILEGED_MODULE := false
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -49,6 +38,17 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := FrameworkPackageStubs
 LOCAL_PRIVILEGED_MODULE := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_PREBUILT_JNI_LIBS := 
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_OVERRIDES_PACKAGES := 
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GoogleBackupTransport
+LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
@@ -80,6 +80,28 @@ LOCAL_OVERRIDES_PACKAGES :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := Katniss
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_PREBUILT_JNI_LIBS := 
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_OVERRIDES_PACKAGES := 
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := LandscapeWallpaper
+LOCAL_PRIVILEGED_MODULE := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_PREBUILT_JNI_LIBS := 
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_OVERRIDES_PACKAGES := 
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := Music2Pano
 LOCAL_PRIVILEGED_MODULE := false
 LOCAL_MODULE_TAGS := optional
@@ -93,17 +115,6 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := NoTouchAuthDelegate
 LOCAL_PRIVILEGED_MODULE := false
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
-LOCAL_PREBUILT_JNI_LIBS := 
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_OVERRIDES_PACKAGES := 
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Overscan
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
@@ -140,7 +151,7 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
-LOCAL_PREBUILT_JNI_LIBS := lib/libAppDataSearch.so lib/libconscrypt_gmscore_jni.so lib/libgames_rtmp_jni.so lib/libgcastv2_base.so lib/libgcastv2_support.so lib/libgmscore.so lib/libgms-ocrclient.so lib/libjgcastservice.so lib/libWhisper.so 
+LOCAL_PREBUILT_JNI_LIBS := lib/libAppDataSearch.so lib/libappstreaming_jni.so lib/libconscrypt_gmscore_jni.so lib/libgcastv2_base.so lib/libgcastv2_support.so lib/libgmscore.so lib/libgms-ocrclient.so lib/libjgcastservice.so lib/libleveldbjni.so lib/libNearbyApp.so lib/libwearable-selector.so lib/libWhisper.so 
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_OVERRIDES_PACKAGES := 
 include $(BUILD_PREBUILT)
@@ -179,17 +190,6 @@ LOCAL_OVERRIDES_PACKAGES :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := TvVoiceInput
-LOCAL_PRIVILEGED_MODULE := false
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
-LOCAL_PREBUILT_JNI_LIBS := 
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_OVERRIDES_PACKAGES := 
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := VideosPano
 LOCAL_PRIVILEGED_MODULE := false
 LOCAL_MODULE_TAGS := optional
@@ -202,17 +202,6 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := YouTubeLeanback
-LOCAL_PRIVILEGED_MODULE := false
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
-LOCAL_PREBUILT_JNI_LIBS := lib/libm2ts_player.so lib/libcronet.so
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_OVERRIDES_PACKAGES := 
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleBackupTransport.apk
 LOCAL_PRIVILEGED_MODULE := false
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
