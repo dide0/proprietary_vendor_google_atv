@@ -17,4 +17,5 @@ PRODUCT_PACKAGES += \
     SecondScreenSetupAuthBridge \
     SetupWraith \
     VideosPano \
+    WebViewGoogle \
     YouTubeLeanback
